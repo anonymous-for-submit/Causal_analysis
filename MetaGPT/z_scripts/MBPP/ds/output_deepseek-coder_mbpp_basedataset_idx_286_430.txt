@@ -1,0 +1,2036 @@
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_deepseek-coder_original_dataset', workspace='workspace_deepseek-coder_mbpp_original_result', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=286, end_idx=430, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+427
+----------executing task: 286----------
+in generating repo
+
+
+
+
+
+----------executing task: 287----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 288----------
+in generating repo
+
+
+
+
+
+----------executing task: 289----------
+in generating repo
+
+
+
+
+
+----------executing task: 290----------
+in generating repo
+
+
+
+
+
+----------executing task: 291----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 292----------
+in generating repo
+
+
+
+
+
+----------executing task: 293----------
+in generating repo
+
+
+
+
+
+----------executing task: 294----------
+in generating repo
+
+
+
+
+
+----------executing task: 295----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 296----------
+in generating repo
+
+
+
+
+
+----------executing task: 297----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 298----------
+in generating repo
+
+
+
+
+
+----------executing task: 299----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 300----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 301----------
+in generating repo
+
+
+
+
+
+----------executing task: 302----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 303----------
+in generating repo
+
+
+
+
+
+----------executing task: 304----------
+in generating repo
+
+
+
+
+
+----------executing task: 305----------
+in generating repo
+
+
+
+
+
+----------executing task: 306----------
+in generating repo
+
+
+
+
+
+----------executing task: 307----------
+in generating repo
+
+
+
+
+
+----------executing task: 308----------
+in generating repo
+
+
+
+
+
+----------executing task: 309----------
+in generating repo
+
+
+
+
+
+----------executing task: 310----------
+in generating repo
+
+
+
+
+
+----------executing task: 311----------
+in generating repo
+
+
+
+
+
+----------executing task: 312----------
+in generating repo
+
+
+
+
+
+----------executing task: 313----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 314----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 315----------
+in generating repo
+
+
+
+
+
+----------executing task: 316----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 317----------
+in generating repo
+
+
+
+
+
+----------executing task: 318----------
+in generating repo
+
+
+
+
+
+----------executing task: 319----------
+in generating repo
+
+
+
+
+
+----------executing task: 320----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 321----------
+in generating repo
+
+
+
+
+
+----------executing task: 322----------
+in generating repo
+
+
+
+
+
+----------executing task: 323----------
+in generating repo
+
+
+
+
+
+----------executing task: 324----------
+in generating repo
+
+
+
+
+
+----------executing task: 325----------
+in generating repo
+
+
+
+
+
+----------executing task: 326----------
+in generating repo
+
+
+
+
+
+----------executing task: 327----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 328----------
+in generating repo
+
+
+
+
+
+----------executing task: 329----------
+in generating repo
+
+
+
+
+
+----------executing task: 330----------
+in generating repo
+
+
+
+
+
+----------executing task: 331----------
+in generating repo
+
+
+
+
+
+----------executing task: 332----------
+in generating repo
+
+
+
+
+
+----------executing task: 333----------
+in generating repo
+
+
+
+
+
+----------executing task: 334----------
+in generating repo
+
+
+
+
+
+----------executing task: 335----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 336----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 337----------
+in generating repo
+
+
+
+
+
+----------executing task: 338----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 339----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 340----------
+in generating repo
+
+
+
+
+
+----------executing task: 341----------
+in generating repo
+
+
+
+
+
+----------executing task: 342----------
+in generating repo
+
+
+
+
+
+----------executing task: 343----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 344----------
+in generating repo
+
+
+
+
+
+----------executing task: 345----------
+in generating repo
+
+
+
+
+
+----------executing task: 346----------
+in generating repo
+
+
+
+
+
+----------executing task: 347----------
+in generating repo
+
+
+
+
+
+----------executing task: 348----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 349----------
+in generating repo
+
+
+
+
+
+----------executing task: 350----------
+in generating repo
+
+
+
+
+
+----------executing task: 351----------
+in generating repo
+
+
+
+
+
+----------executing task: 352----------
+in generating repo
+
+
+
+
+
+----------executing task: 353----------
+in generating repo
+
+
+
+
+
+----------executing task: 354----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 355----------
+in generating repo
+
+
+
+
+
+----------executing task: 356----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 357----------
+in generating repo
+
+
+
+
+
+----------executing task: 358----------
+in generating repo
+
+
+
+
+
+----------executing task: 359----------
+in generating repo
+
+
+
+
+
+----------executing task: 360----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 361----------
+in generating repo
+
+
+
+
+
+----------executing task: 362----------
+in generating repo
+
+
+
+
+
+----------executing task: 363----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 364----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 365----------
+in generating repo
+
+
+
+
+
+----------executing task: 366----------
+in generating repo
+
+
+
+
+
+----------executing task: 367----------
+in generating repo
+
+
+
+
+
+----------executing task: 368----------
+in generating repo
+
+
+
+
+
+----------executing task: 369----------
+in generating repo
+
+
+
+
+
+----------executing task: 370----------
+in generating repo
+
+
+
+
+
+----------executing task: 371----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 372----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 373----------
+in generating repo
+
+
+
+
+
+----------executing task: 374----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 375----------
+in generating repo
+
+
+
+
+
+----------executing task: 376----------
+in generating repo
+
+
+
+
+
+----------executing task: 377----------
+in generating repo
+
+
+
+
+
+----------executing task: 378----------
+in generating repo
+
+
+
+
+
+----------executing task: 379----------
+in generating repo
+
+
+
+
+
+----------executing task: 380----------
+in generating repo
+
+
+
+
+
+----------executing task: 381----------
+in generating repo
+
+
+
+
+
+----------executing task: 382----------
+in generating repo
+
+
+
+
+
+----------executing task: 383----------
+in generating repo
+
+
+
+
+
+----------executing task: 384----------
+in generating repo
+
+
+
+
+
+----------executing task: 385----------
+in generating repo
+
+
+
+
+
+----------executing task: 386----------
+in generating repo
+
+
+
+
+
+----------executing task: 387----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 388----------
+in generating repo
+
+
+
+
+
+----------executing task: 389----------
+in generating repo
+
+
+
+
+
+----------executing task: 390----------
+in generating repo
+
+
+
+
+
+----------executing task: 391----------
+in generating repo
+
+
+
+
+
+----------executing task: 392----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 393----------
+in generating repo
+
+
+
+
+
+----------executing task: 394----------
+in generating repo
+
+
+
+
+
+----------executing task: 395----------
+in generating repo
+
+
+
+
+
+----------executing task: 396----------
+in generating repo
+
+
+
+
+
+----------executing task: 397----------
+in generating repo
+
+
+
+
+
+----------executing task: 398----------
+in generating repo
+
+
+
+
+
+----------executing task: 399----------
+in generating repo
+
+
+
+
+
+----------executing task: 400----------
+in generating repo
+
+
+
+
+
+----------executing task: 401----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 402----------
+in generating repo
+
+
+
+
+
+----------executing task: 403----------
+in generating repo
+
+
+
+
+
+----------executing task: 404----------
+in generating repo
+
+
+
+
+
+----------executing task: 405----------
+in generating repo
+
+
+
+
+
+----------executing task: 406----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 407----------
+in generating repo
+
+
+
+
+
+----------executing task: 408----------
+in generating repo
+
+
+
+
+
+----------executing task: 409----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 410----------
+in generating repo
+
+
+
+
+
+----------executing task: 411----------
+in generating repo
+
+
+
+
+
+----------executing task: 412----------
+in generating repo
+
+
+
+
+
+----------executing task: 413----------
+in generating repo
+
+
+
+
+
+----------executing task: 414----------
+in generating repo
+
+
+
+
+
+----------executing task: 415----------
+in generating repo
+
+
+
+
+
+----------executing task: 416----------
+in generating repo
+
+
+
+
+
+----------executing task: 417----------
+in generating repo
+
+
+
+
+
+----------executing task: 418----------
+in generating repo
+
+
+
+
+
+----------executing task: 419----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 420----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 421----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 422----------
+in generating repo
+
+
+
+
+
+----------executing task: 423----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 424----------
+in generating repo
+
+
+
+
+
+----------executing task: 425----------
+in generating repo
+
+
+
+
+
+----------executing task: 426----------
+in generating repo
+
+
+
+
+
+evluating...
+evaluating ...
+True
+current round: 0
+current pass@10: 1.0
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+no answer for question 7
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 10
+current pass@10: 0.6363636363636364
+evaluating ...
+True
+no answer for question 12
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 20
+current pass@10: 0.5714285714285714
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 30
+current pass@10: 0.6129032258064516
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+no answer for question 38
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 40
+current pass@10: 0.5365853658536586
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+current round: 50
+current pass@10: 0.5294117647058824
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 56
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 60
+current pass@10: 0.5245901639344263
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+no answer for question 66
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 70
+current pass@10: 0.4788732394366197
+no answer for question 71
+False
+no code_file_path
+no answer for question 72
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 80
+current pass@10: 0.48148148148148145
+no code_file_path
+no answer for question 81
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+current round: 90
+current pass@10: 0.4725274725274725
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+no code_file_path
+no answer for question 95
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 100
+current pass@10: 0.45544554455445546
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 110
+current pass@10: 0.4774774774774775
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 119
+False
+evaluating ...
+True
+current round: 120
+current pass@10: 0.4793388429752066
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+current round: 130
+current pass@10: 0.48091603053435117
+no answer for question 131
+False
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 134
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+no answer for question 140
+False
+current round: 140
+current pass@10: 0.46099290780141844
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+current round: 150
+current pass@10: 0.4768211920529801
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 156
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 160
+current pass@10: 0.4720496894409938
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+current round: 170
+current pass@10: 0.4853801169590643
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 180
+current pass@10: 0.47513812154696133
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 190
+current pass@10: 0.4869109947643979
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+current round: 200
+current pass@10: 0.4975124378109453
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 210
+current pass@10: 0.4928909952606635
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 215
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+current round: 220
+current pass@10: 0.502262443438914
+evaluating ...
+True
+no code_file_path
+no answer for question 222
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 230
+current pass@10: 0.49783549783549785
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 240
+current pass@10: 0.4979253112033195
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 248
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 250
+current pass@10: 0.4940239043824701
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 260
+current pass@10: 0.49808429118773945
+evaluating ...
+True
+no code_file_path
+no answer for question 262
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+no code_file_path
+no answer for question 266
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 270
+current pass@10: 0.4907749077490775
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 279
+False
+evaluating ...
+False
+current round: 280
+current pass@10: 0.48398576512455516
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 283
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 287
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 290
+current pass@10: 0.48109965635738833
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+no code_file_path
+no answer for question 297
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+current round: 300
+current pass@10: 0.48172757475083056
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+current round: 310
+current pass@10: 0.4855305466237942
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 316
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+current round: 320
+current pass@10: 0.4797507788161994
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 327
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 330
+current pass@10: 0.48036253776435045
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+no code_file_path
+no answer for question 335
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+current round: 340
+current pass@10: 0.4780058651026393
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 350
+current pass@10: 0.4757834757834758
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+current round: 360
+current pass@10: 0.4709141274238227
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 363
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+current round: 370
+current pass@10: 0.46900269541778977
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+no code_file_path
+no answer for question 374
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 380
+current pass@10: 0.46981627296587924
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+no code_file_path
+no answer for question 387
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 390
+current pass@10: 0.47058823529411764
+evaluating ...
+False
+no code_file_path
+no answer for question 392
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+current round: 400
+current pass@10: 0.47381546134663344
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+no answer for question 406
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 410
+current pass@10: 0.4768856447688564
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+no code_file_path
+no answer for question 419
+False
+evaluating ...
+False
+current round: 420
+current pass@10: 0.4750593824228028
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+----------------------------------------------------------------------------------------------------
+[True, False, False, True, True, True, False, False, True, True, True, True, False, True, False, False, False, False, True, True, True, True, True, True, False, False, True, True, True, True, False, False, False, False, True, True, False, False, False, False, True, False, False, False, False, True, True, True, True, False, True, True, True, False, True, False, False, True, False, False, True, False, False, False, True, False, False, False, False, False, True, False, False, False, False, True, False, True, True, True, True, False, True, False, False, False, True, True, True, False, False, False, True, False, False, False, False, False, True, True, False, True, True, True, False, True, True, True, False, False, True, True, False, True, False, False, True, False, True, False, True, False, True, True, False, False, False, True, False, True, True, False, True, False, False, False, False, False, False, True, False, True, True, False, True, True, True, False, False, True, True, True, False, True, True, False, False, False, False, True, False, True, True, False, True, True, True, True, True, False, False, False, False, False, False, True, True, False, False, False, True, True, True, False, True, True, True, False, True, True, False, True, False, True, True, True, False, True, False, True, True, False, False, True, False, False, False, False, True, True, True, True, True, False, True, False, True, True, False, True, True, True, False, True, False, False, False, True, False, True, False, False, False, True, False, True, False, True, True, True, False, False, False, True, False, True, True, False, False, False, True, False, True, True, True, False, False, False, True, True, True, True, False, True, False, False, False, False, False, True, False, True, False, False, False, False, True, False, True, False, False, False, True, False, True, True, False, False, False, False, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, True, True, False, True, True, False, True, False, False, True, False, False, True, False, False, False, False, True, True, False, True, False, True, False, True, False, False, True, False, True, False, False, False, False, True, True, False, True, False, False, False, False, True, False, False, False, False, True, True, False, True, False, True, True, False, True, True, False, False, True, False, False, True, True, False, True, True, False, False, True, False, False, False, False, True, True, True, True, True, False, True, False, True, True, True, True, False, False, True, True, False, False, False, True, True, True, False, True, False, False, False, False, False, False, True, True, True]
+fail list:
+[1, 2, 6, 7, 12, 14, 15, 16, 17, 24, 25, 30, 31, 32, 33, 36, 37, 38, 39, 41, 42, 43, 44, 49, 53, 55, 56, 58, 59, 61, 62, 63, 65, 66, 67, 68, 69, 71, 72, 73, 74, 76, 81, 83, 84, 85, 89, 90, 91, 93, 94, 95, 96, 97, 100, 104, 108, 109, 112, 114, 115, 117, 119, 121, 124, 125, 126, 128, 131, 133, 134, 135, 136, 137, 138, 140, 143, 147, 148, 152, 155, 156, 157, 158, 160, 163, 169, 170, 171, 172, 173, 174, 177, 178, 179, 183, 187, 190, 192, 196, 198, 201, 202, 204, 205, 206, 207, 213, 215, 218, 222, 224, 225, 226, 228, 230, 231, 232, 234, 236, 240, 241, 242, 244, 247, 248, 249, 251, 255, 256, 257, 262, 264, 265, 266, 267, 268, 270, 272, 273, 274, 275, 277, 279, 280, 281, 283, 286, 287, 288, 289, 295, 296, 297, 299, 300, 301, 302, 303, 304, 312, 313, 314, 316, 317, 318, 319, 322, 325, 327, 328, 330, 331, 333, 334, 335, 336, 339, 341, 343, 345, 346, 348, 350, 351, 352, 353, 356, 358, 359, 360, 361, 363, 364, 365, 366, 369, 371, 374, 377, 378, 380, 381, 384, 387, 388, 390, 391, 392, 393, 399, 401, 406, 407, 410, 411, 412, 416, 418, 419, 420, 421, 422, 423]
+final_result: 0.47540983606557374

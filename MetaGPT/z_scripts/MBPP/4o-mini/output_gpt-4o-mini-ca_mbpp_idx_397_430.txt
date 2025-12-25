@@ -1,0 +1,181 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_gpt-4o-mini-ca_intervent_397_430_8/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_gpt-4o-mini-ca_intervent_397_430_8/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_gpt-4o-mini-ca_intervent_397_430', workspace='workspace_gpt-4o-mini-ca_mbpp_len1', num_generate=1, parallel=0, model='gpt-4o-mini-ca', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=397, end_idx=430, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_gpt-4o-mini-ca_mbpp_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_gpt-4o-mini-ca_original_dataset/mbpp.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+----------executing task: 397----------
+Write a function to create a list of N empty dictionaries.
+
+Examples:
+- empty_list(5) == [{},{},{},{},{}]
+- empty_list(6) == [{},{},{},{},{},{}]
+----------------------------------------------------------------------------------------------------
+generating cause, len(cause) = 1
+intervening features: prd_Language
+evaluating ...
+True
+intervening features: prd_Programming Language
+evaluating ...
+True
+intervening features: prd_Original Requirements
+evaluating ...
+False
+intervening features: prd_Product Goals
+evaluating ...
+True
+intervening features: prd_User Stories
+evaluating ...
+True
+intervening features: prd_Competitive Analysis
+evaluating ...
+True
+intervening features: prd_Competitive Quadrant Chart
+evaluating ...
+True
+intervening features: prd_Requirement Analysis
+evaluating ...
+True
+intervening features: prd_Requirement Pool
+evaluating ...
+True
+intervening features: prd_UI Design draft
+evaluating ...
+True
+intervening features: prd_Anything UNCLEAR
+evaluating ...
+True
+intervening features: design_Implementation approach
+evaluating ...
+False
+intervening features: design_File list
+evaluating ...
+True
+intervening features: design_Data structures and interfaces
+evaluating ...
+True
+intervening features: design_Program call flow
+evaluating ...
+True
+intervening features: design_Anything UNCLEAR
+evaluating ...
+True
+intervening features: task_Required packages
+evaluating ...
+True
+intervening features: task_Required Other language third-party packages
+evaluating ...
+True
+intervening features: task_Logic Analysis
+evaluating ...
+True
+intervening features: task_File list
+evaluating ...
+True
+intervening features: task_Full API spec
+evaluating ...
+True
+intervening features: task_Shared Knowledge
+evaluating ...
+True
+intervening features: task_Anything UNCLEAR
+evaluating ...
+True
+found len=1 cause: [[<__main__.FeatureNode object at 0x7fcb9da52b60>], [<__main__.FeatureNode object at 0x7fcb9d9ad7e0>]]
+building group graph for feature nodes ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+building group graph done.
+generating cause, len(cause) = 2
+210
+intervening features: prd_Language,prd_Programming Language
+['prd_Language,prd_Programming Language']
+['prd', 'prd']
+['Language', 'Programming Language']
+in generating repo
+
+
+evaluating ...
+..
+True
+cutting...
+current invalid pairs {'design_Implementation approach,prd_Programming Language', 'prd_Programming Language,prd_Language', 'prd_Language,prd_Programming Language', 'task_Logic Analysis,prd_Programming Language', 'design_Anything UNCLEAR,prd_Programming Language', 'task_Anything UNCLEAR,prd_Programming Language', 'design_Data structures and interfaces,prd_Programming Language'}
+current concecutive fails: 1
+intervening features: prd_Language,prd_User Stories
+['prd_Language,prd_User Stories']
+['prd', 'prd']
+['Language', 'User Stories']
+in generating repo
+
+
+
+
+
+evaluating ...

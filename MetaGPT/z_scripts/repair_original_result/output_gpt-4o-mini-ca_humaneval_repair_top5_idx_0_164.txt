@@ -1,0 +1,219 @@
+Output path: /home/zlyuaj/Causal/MetaGPT/output/repair/results-humaneval_gpt-4o-mini-ca_repair_top5/
+Feature rank: ['prd_Original Requirements', 'design_Data structures and interfaces', 'prd_Language', 'design_Implementation approach', 'prd_Product Goals', 'prd_Programming Language', 'task_Full API spec', 'prd_Anything UNCLEAR', 'prd_User Stories', 'prd_Requirement Analysis', 'prd_Competitive Analysis', 'prd_Requirement Pool', 'design_Anything UNCLEAR', 'prd_UI Design draft', 'prd_Competitive Quadrant Chart', 'design_Program call flow', 'task_Required packages', 'task_Shared Knowledge', 'task_Anything UNCLEAR', 'task_Required Other language third-party packages', 'design_File list', 'task_Logic Analysis']
+Top 5 features: ['prd_Original Requirements', 'design_Data structures and interfaces', 'prd_Language', 'design_Implementation approach', 'prd_Product Goals']
+Repair strategy: design_Implementation approach
+
+==================================================
+Repairing task 0 (Error #1)
+==================================================
+Warning: No correct code found for task 0
+
+==================================================
+Repairing task 2 (Error #2)
+==================================================
+Warning: No correct code found for task 2
+
+==================================================
+Repairing task 3 (Error #3)
+==================================================
+Warning: No correct code found for task 3
+
+==================================================
+Repairing task 5 (Error #4)
+==================================================
+Warning: No correct code found for task 5
+
+==================================================
+Repairing task 6 (Error #5)
+==================================================
+Warning: No correct code found for task 6
+
+==================================================
+Repairing task 7 (Error #6)
+==================================================
+Warning: No correct code found for task 7
+
+==================================================
+Repairing task 8 (Error #7)
+==================================================
+Warning: No correct code found for task 8
+
+==================================================
+Repairing task 10 (Error #8)
+==================================================
+Warning: No correct code found for task 10
+
+==================================================
+Repairing task 11 (Error #9)
+==================================================
+Warning: No correct code found for task 11
+
+==================================================
+Repairing task 12 (Error #10)
+==================================================
+Warning: No correct code found for task 12
+
+==================================================
+Repairing task 13 (Error #11)
+==================================================
+Warning: No correct code found for task 13
+
+==================================================
+Repairing task 14 (Error #12)
+==================================================
+Warning: No correct code found for task 14
+
+==================================================
+Repairing task 15 (Error #13)
+==================================================
+Warning: No correct code found for task 15
+
+==================================================
+Repairing task 16 (Error #14)
+==================================================
+Warning: No correct code found for task 16
+
+==================================================
+Repairing task 17 (Error #15)
+==================================================
+Warning: No correct code found for task 17
+
+==================================================
+Repairing task 18 (Error #16)
+==================================================
+Warning: No correct code found for task 18
+
+==================================================
+Repairing task 19 (Error #17)
+==================================================
+Warning: No correct code found for task 19
+
+==================================================
+Repairing task 20 (Error #18)
+==================================================
+Warning: No correct code found for task 20
+
+==================================================
+Repairing task 21 (Error #19)
+==================================================
+Warning: No correct code found for task 21
+
+==================================================
+Repairing task 22 (Error #20)
+==================================================
+Warning: No correct code found for task 22
+
+==================================================
+Repairing task 23 (Error #21)
+==================================================
+Warning: No correct code found for task 23
+
+==================================================
+Repairing task 24 (Error #22)
+==================================================
+Warning: No correct code found for task 24
+
+==================================================
+Repairing task 28 (Error #23)
+==================================================
+Warning: No correct code found for task 28
+
+==================================================
+Repairing task 30 (Error #24)
+==================================================
+Warning: No correct code found for task 30
+
+==================================================
+Repairing task 32 (Error #25)
+==================================================
+Warning: No correct code found for task 32
+
+==================================================
+Repairing task 35 (Error #26)
+==================================================
+Warning: No correct code found for task 35
+
+==================================================
+Repairing task 37 (Error #27)
+==================================================
+Warning: No correct code found for task 37
+
+==================================================
+Repairing task 39 (Error #28)
+==================================================
+Warning: No correct code found for task 39
+
+==================================================
+Repairing task 41 (Error #29)
+==================================================
+Warning: No correct code found for task 41
+
+==================================================
+Repairing task 43 (Error #30)
+==================================================
+Warning: No correct code found for task 43
+
+==================================================
+Repairing task 44 (Error #31)
+==================================================
+Warning: No correct code found for task 44
+
+==================================================
+Repairing task 45 (Error #32)
+==================================================
+Warning: No correct code found for task 45
+
+==================================================
+Repairing task 46 (Error #33)
+==================================================
+Warning: No correct code found for task 46
+
+==================================================
+Repairing task 47 (Error #34)
+==================================================
+Warning: No correct code found for task 47
+
+==================================================
+Repairing task 49 (Error #35)
+==================================================
+Warning: No correct code found for task 49
+
+==================================================
+Repairing task 50 (Error #36)
+==================================================
+Warning: No correct code found for task 50
+
+==================================================
+Repairing task 51 (Error #37)
+==================================================
+Warning: No correct code found for task 51
+
+==================================================
+Repairing task 53 (Error #38)
+==================================================
+Warning: No correct code found for task 53
+
+==================================================
+Repairing task 56 (Error #39)
+==================================================
+Warning: No correct code found for task 56
+
+==================================================
+Repairing task 60 (Error #40)
+==================================================
+Warning: No correct code found for task 60
+
+==================================================
+Repairing task 61 (Error #41)
+==================================================
+Warning: No correct code found for task 61
+
+==================================================
+REPAIR RESULTS
+==================================================
+Total errors: 41
+Successfully repaired: 0
+Repair pass rate: 0.00%
+==================================================
+
+Results saved to /home/zlyuaj/Causal/MetaGPT/output/repair/results-humaneval_gpt-4o-mini-ca_repair_top5/repair_results.json

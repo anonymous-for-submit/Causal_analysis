@@ -1,0 +1,677 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_intervent_0_170/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_intervent_0_170/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CodeContest_Test_changed.jsonl', dataset='codecontest', output_file_name='codecontest_deepseek-coder_intervent_0_170', workspace='workspace_deepseek-coder_codecontest_len1', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=0, end_idx=170, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_codecontest_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_original_dataset/codecontest.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+skip task_id: 0, original result is fail
+skip task_id: 1, original result is fail
+skip task_id: 2, original result is fail
+skip task_id: 3, original result is fail
+skip task_id: 4, original result is fail
+skip task_id: 5, original result is fail
+skip task_id: 6, original result is fail
+skip task_id: 7, original result is fail
+----------executing task: 8----------
+Chanek Jones is back, helping his long-lost relative Indiana Jones, to find a secret treasure in a maze buried below a desert full of illusions.
+
+The map of the labyrinth forms a tree with n rooms numbered from 1 to n and n - 1 tunnels connecting them such that it is possible to travel between each pair of rooms through several tunnels.
+
+The i-th room (1 ≤ i ≤ n) has a_i illusion rate. To go from the x-th room to the y-th room, there must exist a tunnel between x and y, and it takes max(|a_x + a_y|, |a_x - a_y|) energy. |z| denotes the absolute value of z.
+
+To prevent grave robbers, the maze can change the illusion rate of any room in it. Chanek and Indiana would ask q queries.
+
+There are two types of queries to be done:
+
+  * 1\ u\ c — The illusion rate of the x-th room is changed to c (1 ≤ u ≤ n, 0 ≤ |c| ≤ 10^9). 
+  * 2\ u\ v — Chanek and Indiana ask you the minimum sum of energy needed to take the secret treasure at room v if they are initially at room u (1 ≤ u, v ≤ n). 
+
+
+
+Help them, so you can get a portion of the treasure!
+
+Input
+
+The first line contains two integers n and q (2 ≤ n ≤ 10^5, 1 ≤ q ≤ 10^5) — the number of rooms in the maze and the number of queries.
+
+The second line contains n integers a_1, a_2, …, a_n (0 ≤ |a_i| ≤ 10^9) — inital illusion rate of each room.
+
+The i-th of the next n-1 lines contains two integers s_i and t_i (1 ≤ s_i, t_i ≤ n), meaning there is a tunnel connecting s_i-th room and t_i-th room. The given edges form a tree.
+
+The next q lines contain the query as described. The given queries are valid.
+
+Output
+
+For each type 2 query, output a line containing an integer — the minimum sum of energy needed for Chanek and Indiana to take the secret treasure.
+
+Example
+
+Input
+
+
+6 4
+10 -9 2 -1 4 -6
+1 5
+5 4
+5 6
+6 2
+6 3
+2 1 2
+1 1 -3
+2 1 2
+2 3 3
+
+
+Output
+
+
+39
+32
+0
+
+Note
+
+<image>
+
+In the first query, their movement from the 1-st to the 2-nd room is as follows.
+
+  * 1 → 5 — takes max(|10 + 4|, |10 - 4|) = 14 energy. 
+  * 5 → 6 — takes max(|4 + (-6)|, |4 - (-6)|) = 10 energy. 
+  * 6 → 2 — takes max(|-6 + (-9)|, |-6 - (-9)|) = 15 energy. 
+
+In total, it takes 39 energy.
+
+In the second query, the illusion rate of the 1-st room changes from 10 to -3.
+
+In the third query, their movement from the 1-st to the 2-nd room is as follows.
+
+  * 1 → 5 — takes max(|-3 + 4|, |-3 - 4|) = 7 energy. 
+  * 5 → 6 — takes max(|4 + (-6)|, |4 - (-6)|) = 10 energy. 
+  * 6 → 2 — takes max(|-6 + (-9)|, |-6 - (-9)|) = 15 energy. 
+
+
+
+Now, it takes 32 energy.
+----------------------------------------------------------------------------------------------------
+generating cause, len(cause) = 1
+intervening features: prd_Language
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: prd_Original Requirements
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: prd_User Stories
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Competitive Analysis
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Competitive Quadrant Chart
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Analysis
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: prd_Requirement Pool
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: prd_UI Design draft
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: design_Implementation approach
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: design_File list
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: design_Data structures and interfaces
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: design_Program call flow
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: task_Required packages
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: task_Required Other language third-party packages
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+intervening features: task_Logic Analysis
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: task_File list
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: task_Full API spec
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: task_Shared Knowledge
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: task_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+found len=1 cause: [[<__main__.FeatureNode object at 0x7fb7f7b9f640>], [<__main__.FeatureNode object at 0x7fb7f7f6f850>], [<__main__.FeatureNode object at 0x7fb7f7fd5630>], [<__main__.FeatureNode object at 0x7fb7f7fd56f0>], [<__main__.FeatureNode object at 0x7fb7f7eede70>], [<__main__.FeatureNode object at 0x7fb7f7abd7b0>], [<__main__.FeatureNode object at 0x7fb7f7abd2a0>], [<__main__.FeatureNode object at 0x7fb7f7a0c880>], [<__main__.FeatureNode object at 0x7fb7f7abd750>], [<__main__.FeatureNode object at 0x7fb7f7abd360>], [<__main__.FeatureNode object at 0x7fb7f7abd6f0>], [<__main__.FeatureNode object at 0x7fb7f7abd600>], [<__main__.FeatureNode object at 0x7fb7f7abd480>], [<__main__.FeatureNode object at 0x7fb7f7abd660>]]
+building group graph for feature nodes ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+building group graph done.
+generating cause, len(cause) = 2
+36
+intervening features: prd_Programming Language,prd_Product Goals
+in generating repo
+
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language,prd_Requirement Analysis
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language,prd_Requirement Pool
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language,design_Program call flow
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals,prd_Requirement Analysis
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Requirement Pool', 'prd_Programming Language,prd_Requirement Analysis', 'prd_Product Goals,prd_Requirement Analysis', 'prd_Requirement Analysis,prd_Product Goals', 'prd_Programming Language,design_Program call flow', 'prd_Programming Language,prd_Product Goals'}
+current concecutive fails: 1
+intervening features: prd_Product Goals,prd_Requirement Pool
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals,design_Program call flow
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Analysis,prd_Requirement Pool
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Analysis,design_Program call flow
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Pool,design_Program call flow
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Requirement Pool', 'prd_Requirement Analysis,prd_Requirement Pool', 'prd_Programming Language,prd_Requirement Analysis', 'prd_Requirement Pool,design_Program call flow', 'prd_Product Goals,prd_Requirement Pool', 'prd_Product Goals,design_Program call flow', 'prd_Product Goals,prd_Requirement Analysis', 'prd_Requirement Analysis,prd_Product Goals', 'design_Program call flow,prd_Requirement Pool', 'prd_Requirement Analysis,design_Program call flow', 'prd_Programming Language,design_Program call flow', 'prd_Programming Language,prd_Product Goals'}
+current concecutive fails: 1
+intervening features: prd_Programming Language,design_File list
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language,design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Requirement Pool', 'prd_Requirement Analysis,prd_Requirement Pool', 'prd_Programming Language,prd_Requirement Analysis', 'prd_Requirement Pool,design_Program call flow', 'prd_Product Goals,prd_Requirement Pool', 'prd_Product Goals,design_Program call flow', 'prd_Programming Language,design_File list', 'prd_Product Goals,prd_Requirement Analysis', 'prd_Requirement Analysis,prd_Product Goals', 'design_Program call flow,prd_Requirement Pool', 'design_Anything UNCLEAR,prd_Programming Language', 'prd_Requirement Analysis,design_Program call flow', 'prd_Programming Language,design_Program call flow', 'prd_Programming Language,prd_Product Goals', 'prd_Programming Language,design_Anything UNCLEAR'}
+current concecutive fails: 1
+intervening features: prd_Programming Language,task_Required Other language third-party packages
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Programming Language,task_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals,design_File list
+in generating repo
+
+
+
+
+
+evaluating ...
+[True]
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Requirement Pool', 'prd_Product Goals,design_Program call flow', 'design_File list,prd_Product Goals', 'design_Anything UNCLEAR,prd_Programming Language', 'prd_Programming Language,task_Required Other language third-party packages', 'prd_Programming Language,design_Anything UNCLEAR', 'prd_Product Goals,prd_Requirement Pool', 'prd_Requirement Analysis,prd_Product Goals', 'design_Program call flow,prd_Requirement Pool', 'prd_Programming Language,design_Program call flow', 'prd_Requirement Analysis,prd_Requirement Pool', 'prd_Requirement Pool,design_Program call flow', 'prd_Programming Language,task_Anything UNCLEAR', 'prd_Product Goals,prd_Requirement Analysis', 'prd_Programming Language,prd_Requirement Analysis', 'prd_Product Goals,design_File list', 'prd_Programming Language,design_File list', 'prd_Requirement Analysis,design_Program call flow', 'prd_Programming Language,prd_Product Goals'}
+current concecutive fails: 1
+intervening features: prd_Product Goals,design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals,task_Required Other language third-party packages
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Product Goals,task_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Analysis,design_File list
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[True]
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Requirement Pool', 'design_File list,prd_Requirement Analysis', 'prd_Product Goals,design_Program call flow', 'design_File list,prd_Product Goals', 'prd_Product Goals,task_Required Other language third-party packages', 'design_Anything UNCLEAR,prd_Programming Language', 'prd_Programming Language,task_Required Other language third-party packages', 'prd_Programming Language,design_Anything UNCLEAR', 'prd_Product Goals,prd_Requirement Pool', 'prd_Requirement Analysis,prd_Product Goals', 'design_Program call flow,prd_Requirement Pool', 'prd_Product Goals,task_Anything UNCLEAR', 'prd_Requirement Analysis,design_File list', 'prd_Programming Language,design_Program call flow', 'prd_Requirement Analysis,prd_Requirement Pool', 'prd_Requirement Pool,design_Program call flow', 'prd_Programming Language,task_Anything UNCLEAR', 'prd_Product Goals,prd_Requirement Analysis', 'prd_Product Goals,design_Anything UNCLEAR', 'prd_Programming Language,prd_Requirement Analysis', 'prd_Product Goals,design_File list', 'prd_Programming Language,design_File list', 'prd_Requirement Analysis,design_Program call flow', 'prd_Programming Language,prd_Product Goals'}
+current concecutive fails: 1
+intervening features: prd_Requirement Analysis,design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+[False]
+False
+intervening features: prd_Requirement Analysis,task_Required Other language third-party packages
+in generating repo
+
+
+
+
+
+
+
+evaluating ...

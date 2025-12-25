@@ -1,0 +1,1137 @@
+Output path: /home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_deepseek-coder_original_dataset_modified_requirements/
+Args: Namespace(input_path='/home/zlyuaj/Causal/MetaGPT/data/CoderEval.jsonl', openai_api_key='', openai_base_url='', output_path='/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_deepseek-coder_original_dataset_modified_requirements/', dataset='CoderEval', output_file_name='CoderEval_deepseek-coder_original_dataset_modified_requirements', workspace='workspace_deepseek-coder_CoderEval_modified_orignal', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=65, do_intervent=0, levels='', original_path='aaa', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0)
+Processing 63 tasks (index 0 to 65)
+
+==================================================
+Processing task 0/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def unit_of_work(metadata=None, timeout=None):
+	"""
+	Returns a decorator with metadata and timeout a...
+Modified prompt: def unit_of_work(metadata=None, timeout=None):
+	"""
+	Does not return a decorator with metadata and t...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 0:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 0 with all files present
+
+==================================================
+Processing task 1/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def round_half_to_even(n):
+	"""
+	Round a floating-point number
+	"""
+	...
+Modified prompt: def round_half_to_even(n):
+	"""
+	Do not round a floating-point number
+	"""...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 1:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def round_half_to_even(n):
+	"""
+	Round a floating-point number
+	"""
+	...
+Modified prompt: def round_half_to_even(n):
+	"""
+	Do not round a floating-point number
+	"""...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 1:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def round_half_to_even(n):
+	"""
+	Round a floating-point number
+	"""
+	...
+Modified prompt: def round_half_to_even(n):
+	"""
+	Do not round a floating-point number
+	"""...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 1:
+✓ 所有文件都存在
+✗ Attempt 3 failed: eval_still_passes(passAt10=True)
+
+==================================================
+Processing task 2/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 3/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 4/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 5/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 6/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 7/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 8/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 9/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _c_optimizations_ignored():
+	"""
+	Return True if get "PURE_PYTHON" environ is not none and not 0...
+Modified prompt: def _c_optimizations_ignored():
+	"""
+	Return False if get "PURE_PYTHON" environ is not none and not ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 9:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _c_optimizations_ignored():
+	"""
+	Return True if get "PURE_PYTHON" environ is not none and not 0...
+Modified prompt: def _c_optimizations_ignored():
+	"""
+	Return False if get "PURE_PYTHON" environ is not none and not ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 9:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 9 with all files present
+
+==================================================
+Processing task 10/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _c_optimizations_required():
+	"""
+	Return a true value if the C optimizations are required.
+	"""...
+Modified prompt: def _c_optimizations_not_required():
+	"""
+	Return a false value if the C optimizations are not requi...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 10:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 10 with all files present
+
+==================================================
+Processing task 11/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 12/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 13/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 14/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 15/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 16/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 17/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 18/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 19/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 20/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 21/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 22/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 23/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 24/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 25/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 26/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 27/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def paging(response, max_results):
+	"""
+	Return every response with the length of max_results
+    Ar...
+Modified prompt: def paging(response, max_results):
+	"""
+	Return a generator object that yields responses in chunks o...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 27:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def paging(response, max_results):
+	"""
+	Return every response with the length of max_results
+    Ar...
+Modified prompt: def paging(response, max_results):
+	"""
+	Return responses split page by page with the length of max_...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 27:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def paging(response, max_results):
+	"""
+	Return every response with the length of max_results
+    Ar...
+Modified prompt: def paging(response, max_results):
+	"""
+	Return responses split page by page with the length of max_...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 27:
+✓ 所有文件都存在
+✗ Attempt 3 failed: eval_still_passes(passAt10=True)
+
+==================================================
+Processing task 28/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 29/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _dictsum(dicts):
+	"""
+	Sum values with the same key in the dictionaries. And return a new dictio...
+Modified prompt: def _dictsum(dicts):
+	"""
+	Do not sum values with the same key in the dictionaries. Instead, return ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 29:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _dictsum(dicts):
+	"""
+	Sum values with the same key in the dictionaries. And return a new dictio...
+Modified prompt: def _dictsum(dicts):
+	"""
+	Return a new dictionary where each key has the value from the original di...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 29:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _dictsum(dicts):
+	"""
+	Sum values with the same key in the dictionaries. And return a new dictio...
+Modified prompt: def _dictsum(dicts):
+	"""
+	Do not sum values with the same key in the dictionaries. Instead, return ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 29:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 29 with all files present
+
+==================================================
+Processing task 30/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 31/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def is_none_string(val: any) -> bool:
+	"""
+	Check if a string represents a None value.
+    Returns:
+...
+Modified prompt: def is_none_string(val: any) -> bool:
+	"""
+	Check if a string represents a non-None value.
+    Retur...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 31:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 31 with all files present
+
+==================================================
+Processing task 32/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 33/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 34/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 35/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 36/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 37/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 38/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def replace_dots(value, arg):
+	"""
+	Replaces all values of '.' to arg from the given string
+    Args...
+Modified prompt: def replace_dots(value, arg):
+	"""
+	Does not replace any values of '.' from the given string
+    Arg...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 38:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def replace_dots(value, arg):
+	"""
+	Replaces all values of '.' to arg from the given string
+    Args...
+Modified prompt: def replace_dots(value, arg):
+	"""
+	Does not replace any values of '.' from the given string
+    Arg...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 38:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def replace_dots(value, arg):
+	"""
+	Replaces all values of '.' to arg from the given string
+    Args...
+Modified prompt: def replace_dots(value, arg):
+	"""
+	Does not replace all values of '.' from the given string
+    Arg...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 38:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 38 with all files present
+
+==================================================
+Processing task 39/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 40/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def string_to_int(string: str, alphabet: List[str]) -> int:
+	"""
+	Convert a string to a number, usin...
+Modified prompt: def int_to_string(number: int, alphabet: List[str]) -> str:
+	"""
+	Convert a number to a string, usin...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 40:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 40 with all files present
+
+==================================================
+Processing task 41/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 42/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def os_is_mac():
+	"""
+	Checks if the os is macOS
+
+    :return: bool, True is macOS, otherwise False....
+Modified prompt: def os_is_not_mac():
+	"""
+	Checks if the OS is not macOS
+
+    :return: bool, False if macOS, otherwi...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 42:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 42 with all files present
+
+==================================================
+Processing task 43/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 44/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 45/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 46/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 47/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 48/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 49/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 50/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 51/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 52/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def is_gitbash():
+	"""
+	Check whether the current program is run in a Windows gitbash terminal
+
+    ...
+Modified prompt: def is_not_gitbash():
+	"""
+	Check whether the current program is not run in a Windows gitbash termin...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 52:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 52 with all files present
+
+==================================================
+Processing task 53/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 54/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to one line command with the given sep...
+Modified prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to a multi-line command with the given...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 54:
+✗ 发现 2 个缺失文件:
+  - CoderEval_modified_54_0/docs/system_design: 无JSON文件
+  - CoderEval_modified_54_0/docs/task: 无JSON文件
+File check failed: 
+✗ Attempt 1 failed: files_missing
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to one line command with the given sep...
+Modified prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to a multi-line command with the given...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 54:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to one line command with the given sep...
+Modified prompt: def oneline(script, seperator=" && "):
+	"""
+	Convert a script to multiple lines of commands with the...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 54:
+✗ 发现 2 个缺失文件:
+  - CoderEval_modified_54_0/docs/system_design: 无JSON文件
+  - CoderEval_modified_54_0/docs/task: 无JSON文件
+File check failed: 
+✗ Attempt 3 failed: files_missing
+
+==================================================
+Processing task 55/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def subprocess_run_helper(func, *args, timeout, extra_env=None):
+	"""
+	Run a function in a sub-proce...
+Modified prompt: def subprocess_run_helper(func, *args, timeout=None, extra_env=None):
+	"""
+	Execute a function withi...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 55:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def subprocess_run_helper(func, *args, timeout, extra_env=None):
+	"""
+	Run a function in a sub-proce...
+Modified prompt: def subprocess_run_helper(func, *args, timeout=None, extra_env=None):
+	"""
+	Execute a function withi...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 55:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def subprocess_run_helper(func, *args, timeout, extra_env=None):
+	"""
+	Run a function in a sub-proce...
+Modified prompt: def subprocess_run_helper(func, *args, timeout=None, extra_env=None):
+	"""
+	Execute a function withi...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 55:
+✓ 所有文件都存在
+✗ Attempt 3 failed: eval_still_passes(passAt10=True)
+
+==================================================
+Processing task 56/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 57/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Modified prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 57:
+✗ 发现 1 个缺失文件:
+  - CoderEval_modified_57_0/docs/task: 无JSON文件
+File check failed: 
+✗ Attempt 1 failed: files_missing
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Modified prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 57:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Modified prompt: def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into compo...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 57:
+✓ 所有文件都存在
+✗ Attempt 3 failed: eval_still_passes(passAt10=True)
+
+==================================================
+Processing task 58/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def remove_ending_os_sep(input_list):
+	"""
+	If input list is None, return []
+    Iterate over a stri...
+Modified prompt: def add_ending_os_sep(input_list):
+	"""
+	If input list is None, return []
+    Iterate over a string ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 58:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 58 with all files present
+
+==================================================
+Processing task 59/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def get_pattern(pattern, strip=True):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+  ...
+Modified prompt: def get_pattern(pattern, strip=False):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+ ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 59:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: def get_pattern(pattern, strip=True):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+  ...
+Modified prompt: def get_pattern(pattern, strip=False):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+ ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 59:
+✓ 所有文件都存在
+✗ Attempt 2 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 3/3 ---
+Step 1: Modifying prompt.
+Original prompt: def get_pattern(pattern, strip=True):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+  ...
+Modified prompt: def get_pattern(pattern, strip=False):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+ ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 59:
+✓ 所有文件都存在
+✗ Attempt 3 failed: eval_still_passes(passAt10=True)
+
+==================================================
+Processing task 60/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 61/63
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 62/63
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: def default_tzinfo(dt, tzinfo):
+	"""
+	Sets the ``tzinfo`` parameter on naive datetimes only
+
+This is...
+Modified prompt: def default_tzinfo(dt, tzinfo):
+	"""
+	Removes the ``tzinfo`` parameter from aware datetimes only
+
+Th...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - CoderEval - 62:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 62 with all files present
+
+==================================================
+Summary:
+Total passed tasks processed: 63
+Successful modifications (now failing with files): 11
+Failed modifications: 6
+Success rate: 17.46%
+
+Unsuccessful indices: [1, 27, 54, 55, 57, 59]
+Results saved to: /home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_deepseek-coder_original_dataset_modified_requirements/CoderEval_modified.jsonl
+Summary saved to: /home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_deepseek-coder_original_dataset_modified_requirements/CoderEval_summary.json

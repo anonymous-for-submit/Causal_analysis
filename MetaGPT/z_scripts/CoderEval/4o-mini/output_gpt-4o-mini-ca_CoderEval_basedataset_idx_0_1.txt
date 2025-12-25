@@ -1,0 +1,30 @@
+/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_gpt-4o-mini-ca_original_dataset_2/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_gpt-4o-mini-ca_original_dataset_2/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CoderEval.jsonl', dataset='CoderEval', output_file_name='CoderEval_gpt-4o-mini-ca_original_dataset', workspace='workspace_gpt-4o-mini-ca_CoderEval_original_result', num_generate=1, parallel=0, model='gpt-4o-mini-ca', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=1, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+63
+----------executing task: 0----------
+in generating repo
+
+
+
+
+
+----------executing task: 1----------
+in generating repo
+
+
+
+
+
+evluating...
+evaluating ...
+True
+current round: 0
+current pass@10: 1.0
+evaluating ...
+True
+----------------------------------------------------------------------------------------------------
+[True, True]
+fail list:
+[]
+final_result: 1.0

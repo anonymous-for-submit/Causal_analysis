@@ -1,0 +1,81 @@
+Output path: /home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset_modified_requirements_3/
+Args: Namespace(input_path='/home/zlyuaj/Causal/MetaGPT/data/HumanEval_test_case_ET.jsonl', openai_api_key='', openai_base_url='', output_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset_modified_requirements_3/', dataset='humaneval', output_file_name='humaneval_deepseek-coder_original_dataset_modified_requirements', workspace='workspace_deepseek-coder_humaneval_modified_orignal', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=3, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+Processing 3 tasks (index 0 to 3)
+
+==================================================
+Processing task 0/3
+==================================================
+Step 1: Modifying prompt with GPT-4o-mini...
+Original prompt: from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+  ...
+Modified prompt: from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+  ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+✓ Successfully created failing case for task 0
+
+==================================================
+Processing task 1/3
+==================================================
+Step 1: Modifying prompt with GPT-4o-mini...
+Original prompt: from typing import List
+
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    """ Input t...
+Modified prompt: from typing import List
+
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    """ Input t...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+✓ Successfully created failing case for task 1
+
+==================================================
+Processing task 2/3
+==================================================
+Step 1: Modifying prompt with GPT-4o-mini...
+Original prompt: 
+
+def truncate_number(number: float) -> float:
+    """ Given a positive floating point number, it ca...
+Modified prompt: def truncate_number(number: float) -> float:
+    """ Given a positive floating point number, it can ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+✓ Successfully created failing case for task 2
+
+==================================================
+Summary:
+Total passed tasks processed: 3
+Successful modifications (now failing): 3
+Failed modifications (still passing): 0
+Success rate: 100.00%
+Results saved to: /home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset_modified_requirements_3/humaneval_modified.jsonl
+Summary saved to: /home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset_modified_requirements_3/humaneval_summary.json

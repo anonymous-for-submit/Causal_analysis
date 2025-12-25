@@ -1,0 +1,360 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_gpt-4o-mini-ca_original_dataset_11/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_gpt-4o-mini-ca_original_dataset_11/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_gpt-4o-mini-ca_original_dataset', workspace='workspace_gpt-4o-mini-ca_mbpp_original_result', num_generate=1, parallel=0, model='gpt-4o-mini-ca', run_generate=1, run_evaluate=0, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=251, end_idx=300, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+427
+----------executing task: 251----------
+in generating repo
+
+
+
+
+
+----------executing task: 252----------
+in generating repo
+
+
+
+
+
+----------executing task: 253----------
+in generating repo
+
+
+
+
+
+----------executing task: 254----------
+in generating repo
+
+
+
+
+
+----------executing task: 255----------
+in generating repo
+
+
+
+
+
+----------executing task: 256----------
+in generating repo
+
+
+
+
+
+----------executing task: 257----------
+in generating repo
+
+
+
+
+
+----------executing task: 258----------
+in generating repo
+
+
+
+
+
+----------executing task: 259----------
+in generating repo
+
+
+
+
+
+----------executing task: 260----------
+in generating repo
+
+
+
+
+
+----------executing task: 261----------
+in generating repo
+
+
+
+
+
+----------executing task: 262----------
+in generating repo
+
+
+
+
+
+----------executing task: 263----------
+in generating repo
+
+
+
+
+
+----------executing task: 264----------
+in generating repo
+
+
+
+
+
+----------executing task: 265----------
+in generating repo
+
+
+
+
+
+----------executing task: 266----------
+in generating repo
+
+
+
+
+
+----------executing task: 267----------
+in generating repo
+
+
+
+
+
+----------executing task: 268----------
+in generating repo
+
+
+
+
+
+----------executing task: 269----------
+in generating repo
+
+
+
+
+
+----------executing task: 270----------
+in generating repo
+
+
+
+
+
+----------executing task: 271----------
+in generating repo
+
+
+
+
+
+----------executing task: 272----------
+in generating repo
+
+
+
+
+
+----------executing task: 273----------
+in generating repo
+
+
+
+
+
+----------executing task: 274----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 275----------
+in generating repo
+
+
+
+
+
+----------executing task: 276----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 277----------
+in generating repo
+
+
+
+
+
+----------executing task: 278----------
+in generating repo
+
+
+
+
+
+----------executing task: 279----------
+in generating repo
+
+
+
+
+
+----------executing task: 280----------
+in generating repo
+
+
+
+
+
+----------executing task: 281----------
+in generating repo
+
+
+
+
+
+----------executing task: 282----------
+in generating repo
+
+
+
+
+
+----------executing task: 283----------
+in generating repo
+
+
+
+
+
+----------executing task: 284----------
+in generating repo
+
+
+
+
+
+----------executing task: 285----------
+in generating repo
+
+
+
+
+
+----------executing task: 286----------
+in generating repo
+
+
+
+
+
+----------executing task: 287----------
+in generating repo
+
+
+
+
+
+----------executing task: 288----------
+in generating repo
+
+
+
+
+
+----------executing task: 289----------
+in generating repo
+
+
+
+
+
+----------executing task: 290----------
+in generating repo
+
+
+
+
+
+----------executing task: 291----------
+in generating repo
+
+
+
+
+
+----------executing task: 292----------
+in generating repo
+
+
+
+
+
+----------executing task: 293----------
+in generating repo
+
+
+
+
+
+----------executing task: 294----------
+in generating repo
+
+
+
+
+
+----------executing task: 295----------
+in generating repo
+
+
+
+
+
+----------executing task: 296----------
+in generating repo
+
+
+
+
+
+----------executing task: 297----------
+in generating repo
+
+
+
+
+
+----------executing task: 298----------
+in generating repo
+
+
+
+
+
+----------executing task: 299----------
+in generating repo
+
+
+
+
+
+----------executing task: 300----------
+in generating repo
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+no evaluation result

@@ -1,0 +1,534 @@
+/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_qwen_original_dataset/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_qwen_original_dataset/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CodeContest_Test_changed.jsonl', dataset='codecontest', output_file_name='codecontest_qwen_original_dataset', workspace='workspace_qwen_codecontest_original_result', num_generate=1, parallel=0, model='qwen', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=170, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+165
+all code already generated, skip generating
+evluating...
+evaluating ...
+[False]
+False
+current round: 0
+current pass@10: 0.0
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 10
+current pass@10: 0.09090909090909091
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 20
+current pass@10: 0.09523809523809523
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 30
+current pass@10: 0.06451612903225806
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+no answer for question 40
+False
+current round: 40
+current pass@10: 0.04878048780487805
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 50
+current pass@10: 0.0392156862745098
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 60
+current pass@10: 0.04918032786885246
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+no answer for question 69
+False
+evaluating ...
+[False]
+False
+current round: 70
+current pass@10: 0.04225352112676056
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+no answer for question 79
+False
+evaluating ...
+[False]
+False
+current round: 80
+current pass@10: 0.04938271604938271
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+no answer for question 86
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 90
+current pass@10: 0.054945054945054944
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 100
+current pass@10: 0.0594059405940594
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 110
+current pass@10: 0.05405405405405406
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 120
+current pass@10: 0.06611570247933884
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 130
+current pass@10: 0.06870229007633588
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[True]
+True
+evaluating ...
+[False]
+False
+current round: 140
+current pass@10: 0.07092198581560284
+evaluating ...
+[False]
+False
+no answer for question 142
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 150
+current pass@10: 0.06622516556291391
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+current round: 160
+current pass@10: 0.062111801242236024
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+evaluating ...
+[False]
+False
+no answer for question 164
+False
+----------------------------------------------------------------------------------------------------
+[False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, True, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+fail list:
+[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 114, 115, 116, 117, 119, 120, 121, 122, 123, 124, 125, 126, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164]
+final_result: 0.06060606060606061

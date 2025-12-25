@@ -1,0 +1,5 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_intervent_80_160/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_intervent_80_160/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_deepseek-coder_intervent_80_160', workspace='workspace_deepseek-coder_mbpp_len1', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=80, end_idx=160, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_mbpp_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset/mbpp.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>

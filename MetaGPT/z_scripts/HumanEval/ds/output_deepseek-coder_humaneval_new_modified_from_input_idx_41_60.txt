@@ -1,0 +1,27 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_new_modified_from_input_intervent_41_60/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_new_modified_from_input_intervent_41_60/', input_path='/home/zlyuaj/Causal/MetaGPT/data/HumanEval_test_case_ET.jsonl', dataset='humaneval', output_file_name='humaneval_deepseek-coder_new_modified_from_input_intervent_41_60', workspace='workspace_deepseek-coder_humaneval_new_modified_from_input_len1', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=41, end_idx=60, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_humaneval_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, modified_intervention=0, modified_intervention_from_input=1, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset/humaneval.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+skip task_id: 41, original result is fail
+----------executing task: 42----------
+
+
+def incr_list(l: list):
+    """Return list with elements incremented by 1.
+    >>> incr_list([1, 2, 3])
+    [2, 3, 4]
+    >>> incr_list([5, 3, 5, 2, 3, 3, 9, 0, 123])
+    [6, 4, 6, 3, 4, 4, 10, 1, 124]
+    """
+
+----------------------------------------------------------------------------------------------------
+generating cause, len(cause) = 1
+intervening features: prd_Language
+in generating repo
+
+
+
+
+
+evaluating ...

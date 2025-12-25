@@ -1,0 +1,864 @@
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset_2/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset_2/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_deepseek-coder_original_dataset', workspace='workspace_deepseek-coder_mbpp_original_result', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=163, end_idx=430, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+427
+----------executing task: 163----------
+in generating repo
+
+
+
+
+
+----------executing task: 164----------
+in generating repo
+
+
+
+
+
+----------executing task: 165----------
+in generating repo
+
+
+
+
+
+----------executing task: 166----------
+in generating repo
+
+
+
+
+
+----------executing task: 167----------
+in generating repo
+
+
+
+
+
+----------executing task: 168----------
+in generating repo
+
+
+
+
+
+----------executing task: 169----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 170----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 171----------
+in generating repo
+
+
+
+
+
+----------executing task: 172----------
+in generating repo
+
+
+
+
+
+----------executing task: 173----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 174----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 175----------
+in generating repo
+
+
+
+
+
+----------executing task: 176----------
+in generating repo
+
+
+
+
+
+----------executing task: 177----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 178----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 179----------
+in generating repo
+
+
+
+
+
+----------executing task: 180----------
+in generating repo
+
+
+
+
+
+----------executing task: 181----------
+in generating repo
+
+
+
+
+
+----------executing task: 182----------
+in generating repo
+
+
+
+
+
+----------executing task: 183----------
+in generating repo
+
+
+
+
+
+----------executing task: 184----------
+in generating repo
+
+
+
+
+
+----------executing task: 185----------
+in generating repo
+
+
+
+
+
+----------executing task: 186----------
+in generating repo
+
+
+
+
+
+----------executing task: 187----------
+in generating repo
+
+
+
+
+
+----------executing task: 188----------
+in generating repo
+
+
+
+
+
+----------executing task: 189----------
+in generating repo
+
+
+
+
+
+----------executing task: 190----------
+in generating repo
+
+
+
+
+
+----------executing task: 191----------
+in generating repo
+
+
+
+
+
+----------executing task: 192----------
+in generating repo
+
+
+
+
+
+----------executing task: 193----------
+in generating repo
+
+
+
+
+
+----------executing task: 194----------
+in generating repo
+
+
+
+
+
+----------executing task: 195----------
+in generating repo
+
+
+
+
+
+----------executing task: 196----------
+in generating repo
+
+
+
+
+
+----------executing task: 197----------
+in generating repo
+
+
+
+
+
+----------executing task: 198----------
+in generating repo
+
+
+
+
+
+----------executing task: 199----------
+in generating repo
+
+
+
+
+
+----------executing task: 200----------
+in generating repo
+
+
+
+
+
+----------executing task: 201----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 202----------
+in generating repo
+
+
+
+
+
+----------executing task: 203----------
+in generating repo
+
+
+
+
+
+----------executing task: 204----------
+in generating repo
+
+
+
+
+
+----------executing task: 205----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 206----------
+in generating repo
+
+
+
+
+
+----------executing task: 207----------
+in generating repo
+
+
+
+
+
+----------executing task: 208----------
+in generating repo
+
+
+
+
+
+----------executing task: 209----------
+in generating repo
+
+
+
+
+
+----------executing task: 210----------
+in generating repo
+
+
+
+
+
+----------executing task: 211----------
+in generating repo
+
+
+
+
+
+----------executing task: 212----------
+in generating repo
+
+
+
+
+
+----------executing task: 213----------
+in generating repo
+
+
+
+
+
+----------executing task: 214----------
+in generating repo
+
+
+
+
+
+----------executing task: 215----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 216----------
+in generating repo
+
+
+
+
+
+----------executing task: 217----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 218----------
+in generating repo
+
+
+
+
+
+----------executing task: 219----------
+in generating repo
+
+
+
+
+
+----------executing task: 220----------
+in generating repo
+
+
+
+
+
+----------executing task: 221----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 222----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 223----------
+in generating repo
+
+
+
+
+
+
+----------executing task: 224----------
+in generating repo
+
+
+
+
+
+----------executing task: 225----------
+in generating repo
+
+
+
+
+
+----------executing task: 226----------
+in generating repo
+
+
+
+
+
+----------executing task: 227----------
+in generating repo
+
+
+
+
+
+----------executing task: 228----------
+in generating repo
+
+
+
+
+
+----------executing task: 229----------
+in generating repo
+
+
+
+
+
+----------executing task: 230----------
+in generating repo
+
+
+
+
+
+----------executing task: 231----------
+in generating repo
+
+
+
+
+
+----------executing task: 232----------
+in generating repo
+
+
+
+
+
+----------executing task: 233----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 234----------
+in generating repo
+
+
+
+
+
+----------executing task: 235----------
+in generating repo
+
+
+
+
+
+----------executing task: 236----------
+in generating repo
+
+
+
+
+
+----------executing task: 237----------
+in generating repo
+
+
+
+
+
+----------executing task: 238----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 239----------
+in generating repo
+
+
+
+
+
+----------executing task: 240----------
+in generating repo
+
+
+
+
+
+----------executing task: 241----------
+in generating repo
+
+
+
+
+
+----------executing task: 242----------
+in generating repo
+
+
+
+
+
+----------executing task: 243----------
+in generating repo
+
+
+
+
+
+----------executing task: 244----------
+in generating repo
+
+
+
+
+
+----------executing task: 245----------
+in generating repo
+
+
+
+
+
+----------executing task: 246----------
+in generating repo
+
+
+
+
+
+----------executing task: 247----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 248----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 249----------
+in generating repo
+
+
+
+
+
+----------executing task: 250----------
+in generating repo
+
+
+
+
+
+----------executing task: 251----------
+in generating repo
+
+
+
+
+
+----------executing task: 252----------
+in generating repo
+
+
+
+
+
+----------executing task: 253----------
+in generating repo
+
+
+
+
+
+----------executing task: 254----------
+in generating repo
+
+
+
+
+
+----------executing task: 255----------
+in generating repo
+
+
+
+
+
+----------executing task: 256----------
+in generating repo
+
+
+
+
+
+----------executing task: 257----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 258----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 259----------
+in generating repo
+
+
+
+
+
+----------executing task: 260----------
+in generating repo
+
+
+
+
+
+----------executing task: 261----------
+in generating repo
+
+
+
+
+
+----------executing task: 262----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 263----------
+in generating repo
+
+
+
+
+
+----------executing task: 264----------
+in generating repo
+
+
+
+
+
+----------executing task: 265----------
+in generating repo
+
+
+
+
+
+----------executing task: 266----------
+in generating repo
+
+
+
+
+
+
+
+----------executing task: 267----------
+in generating repo
+
+
+
+
+
+----------executing task: 268----------
+in generating repo
+
+
+
+
+
+----------executing task: 269----------
+in generating repo
+
+
+
+
+
+----------executing task: 270----------
+in generating repo
+
+
+
+
+
+
+
+
+----------executing task: 271----------
+in generating repo
+
+
+
+
+
+----------executing task: 272----------
+in generating repo
+
+
+
+
+
+----------executing task: 273----------
+in generating repo
+
+
+
+
+
+----------executing task: 274----------
+in generating repo
+
+
+
+
+
+----------executing task: 275----------
+in generating repo
+
+
+
+
+
+----------executing task: 276----------
+in generating repo
+
+
+
+
+
+----------executing task: 277----------
+in generating repo
+
+
+
+
+
+----------executing task: 278----------
+in generating repo
+
+
+
+
+
+--------

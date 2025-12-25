@@ -1,0 +1,32 @@
+/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_gpt-4o-mini-ca_original_dataset_3/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_gpt-4o-mini-ca_original_dataset_3/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CodeContest_Test_changed.jsonl', dataset='codecontest', output_file_name='codecontest_gpt-4o-mini-ca_original_dataset', workspace='workspace_gpt-4o-mini-ca_codecontest_original_result', num_generate=1, parallel=0, model='gpt-4o-mini-ca', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=1, do_intervent=0, levels='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+165
+----------executing task: 0----------
+in generating repo
+
+
+
+
+
+----------executing task: 1----------
+in generating repo
+
+
+
+
+
+evluating...
+evaluating ...
+[False]
+False
+current round: 0
+current pass@10: 0.0
+evaluating ...
+[False]
+False
+----------------------------------------------------------------------------------------------------
+[False, False]
+fail list:
+[0, 1]
+final_result: 0.0

@@ -1,0 +1,39 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_qwen_new_modified_intervent_281_305/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_qwen_new_modified_intervent_281_305/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CoderEval.jsonl', dataset='CoderEval', output_file_name='CoderEval_qwen_new_modified_intervent_281_305', workspace='workspace_qwen_CoderEval_new_modified_len1', num_generate=1, parallel=0, model='qwen', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=281, end_idx=305, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, modified_intervention=1, modified_intervention_from_input=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/CoderEval/results-CoderEval_qwen_original_dataset/CoderEval.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_3_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_3_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_3_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_4_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_4_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_4_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_9_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_9_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_9_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_17_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_17_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_17_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_22_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_22_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_22_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_30_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_30_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_30_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_32_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_32_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_32_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_42_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_42_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_42_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_52_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_52_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_52_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_53_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_53_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_53_0/docs/task
+no prd file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_57_0/docs/prd
+no system_design file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_57_0/docs/system_design
+no task file in  /home/zlyuaj/Causal/MetaGPT/workspace_qwen_CoderEval_original_result/CoderEval_57_0/docs/task
+blame map:

@@ -1,0 +1,1050 @@
+Output path: /home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_original_dataset_modified_requirements/
+Args: Namespace(input_path='/home/zlyuaj/Causal/MetaGPT/data/CodeContest_Test_changed.jsonl', openai_api_key='', openai_base_url='', output_path='/home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_original_dataset_modified_requirements/', dataset='codecontest', output_file_name='codecontest_deepseek-coder_original_dataset_modified_requirements', workspace='workspace_deepseek-coder_codecontest_modified_orignal', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, begin_idx=0, end_idx=427, do_intervent=0, levels='', original_path='aaa', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0)
+Processing 165 tasks (index 0 to 427)
+
+==================================================
+Processing task 0/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 1/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 2/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 3/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 4/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 5/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 6/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 7/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 8/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Chanek Jones is back, helping his long-lost relative Indiana Jones, to find a secret treasure in a m...
+Modified prompt: Please rewrite the following programming problem requirement:
+
+Chanek Jones is back, helping his lon...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 8:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 8 with all files present
+
+==================================================
+Processing task 9/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 10/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 11/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Mr. Chanek gives you a sequence a indexed from 1 to n. Define f(a) as the number of indices where a_...
+Modified prompt: Mr. Chanek provides you with a sequence a indexed from 1 to n. Define f(a) as the number of indices ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 11:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 11 with all files present
+
+==================================================
+Processing task 12/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Mr. Chanek's city can be represented as a plane. He wants to build a housing complex in the city.
+
+T...
+Modified prompt: Please rewrite the following programming problem requirement:
+
+Mr. Chanek's city can be represented ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[True]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 12:
+✓ 所有文件都存在
+✗ Attempt 1 failed: eval_still_passes(passAt10=True)
+
+--- Attempt 2/3 ---
+Step 1: Modifying prompt.
+Original prompt: Mr. Chanek's city can be represented as a plane. He wants to build a housing complex in the city.
+
+T...
+Modified prompt: Please rewrite the following programming problem requirement:
+
+Mr. Chanek's city can be represented ...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 12:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 12 with all files present
+
+==================================================
+Processing task 13/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 14/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 15/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 16/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 17/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 18/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 19/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 20/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 21/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 22/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 23/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 24/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 25/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 26/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 27/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 28/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 29/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 30/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 31/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 32/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 33/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 34/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 35/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 36/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 37/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 38/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 39/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 40/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 41/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 42/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 43/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 44/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 45/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 46/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 47/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 48/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 49/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 50/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 51/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 52/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 53/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 54/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 55/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 56/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 57/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 58/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 59/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 60/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Monocarp has got an array a consisting of n integers. Let's denote k as the mathematic mean of these...
+Modified prompt: Monocarp has got an array a consisting of n integers. Let's denote k as the mathematic mean of these...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 60:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 60 with all files present
+
+==================================================
+Processing task 61/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 62/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 63/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 64/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 65/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 66/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 67/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 68/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 69/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 70/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 71/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 72/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 73/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 74/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 75/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 76/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 77/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 78/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 79/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 80/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 81/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 82/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 83/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 84/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 85/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 86/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 87/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 88/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 89/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 90/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 91/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 92/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 93/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 94/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 95/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 96/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 97/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 98/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 99/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 100/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 101/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 102/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 103/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: The robot is located on a checkered rectangular board of size n × m (n rows, m columns). The rows in...
+Modified prompt: The robot is located on a checkered rectangular board of size n × m (n rows, m columns). The rows in...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 103:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 103 with all files present
+
+==================================================
+Processing task 104/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 105/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 106/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 107/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 108/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 109/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 110/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 111/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 112/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 113/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Monocarp wrote down two numbers on a whiteboard. Both numbers follow a specific format: a positive i...
+Modified prompt: For each testcase, compare the two numbers based on their values after removing the trailing zeros.
+...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 113:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 113 with all files present
+
+==================================================
+Processing task 114/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 115/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 116/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 117/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 118/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 119/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 120/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 121/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 122/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 123/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 124/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 125/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 126/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 127/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 128/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 129/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 130/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 131/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 132/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 133/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 134/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 135/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 136/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 137/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 138/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 139/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: A string is called square if it is some string written twice in a row. For example, the strings "aa"...
+Modified prompt: For a given string s determine if it is not square.
+
+Input
+
+The first line of input data contains an...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 139:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 139 with all files present
+
+==================================================
+Processing task 140/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: Polycarp likes squares and cubes of positive integers. Here is the beginning of the sequence of numb...
+Modified prompt: Please rewrite the following programming problem requirement:
+
+Polycarp dislikes squares and cubes o...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 140:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 140 with all files present
+
+==================================================
+Processing task 141/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 142/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 143/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 144/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 145/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 146/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 147/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 148/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 149/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 150/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 151/165
+==================================================
+
+--- Attempt 1/3 ---
+Step 1: Modifying prompt.
+Original prompt: You have an array of integers (initially empty).
+
+You have to perform q queries. Each query is of on...
+Modified prompt: You have an array of integers (initially empty).
+
+You have to perform q queries. Each query is of on...
+Step 2: Generating code for modified prompt...
+in generating repo
+
+
+
+
+
+
+
+
+Step 3: Evaluating modified code with original tests...
+[False]
+Step 4: Checking if required files exist...
+
+检查 deepseek-coder - codecontest - 151:
+✓ 所有文件都存在
+✓ Successfully created failing case for task 151 with all files present
+
+==================================================
+Processing task 152/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 153/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 154/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 155/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 156/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 157/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 158/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 159/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 160/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 161/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 162/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 163/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Processing task 164/165
+==================================================
+original result failed. Continue...
+
+==================================================
+Summary:
+Total passed tasks processed: 165
+Successful modifications (now failing with files): 9
+Failed modifications: 0
+Success rate: 5.45%
+
+Unsuccessful indices: []
+Results saved to: /home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_original_dataset_modified_requirements/codecontest_modified.jsonl
+Summary saved to: /home/zlyuaj/Causal/MetaGPT/output/codecontest/results-codecontest_deepseek-coder_original_dataset_modified_requirements/codecontest_summary.json

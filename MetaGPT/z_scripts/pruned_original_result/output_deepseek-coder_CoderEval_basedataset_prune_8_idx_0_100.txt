@@ -1,0 +1,1411 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/prune_original/results-CoderEval_deepseek-coder_original_dataset_prune_8/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/prune_original/results-CoderEval_deepseek-coder_original_dataset_prune_8/', input_path='/home/zlyuaj/Causal/MetaGPT/data/CoderEval.jsonl', dataset='CoderEval', output_file_name='CoderEval_deepseek-coder_original_dataset_prune_8', workspace='workspace_deepseek-coder_CoderEval_original_result_prune_8', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=0, end_idx=100, original_result_workspace='', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=5, max_len_cause=5, prune_feature=0, empty_intervention=1, prune_feature_num=8, do_intervent=1, run_certain_level='', original_result_path='', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+['prd_Original Requirements', 'design_Implementation approach', 'prd_Competitive Analysis', 'prd_UI Design draft', 'prd_Programming Language', 'design_Data structures and interfaces', 'prd_Product Goals', 'prd_Anything UNCLEAR', 'prd_User Stories', 'task_Shared Knowledge', 'prd_Competitive Quadrant Chart', 'task_File list', 'prd_Language', 'task_Full API spec', 'task_Required packages', 'task_Logic Analysis', 'design_File list', 'design_Anything UNCLEAR', 'task_Anything UNCLEAR', 'prd_Requirement Analysis', 'design_Program call flow', 'task_Required Other language third-party packages', 'prd_Requirement Pool']
+pruned features:
+prd_Requirement Pool
+task_Required Other language third-party packages
+design_Program call flow
+prd_Requirement Analysis
+task_Anything UNCLEAR
+design_Anything UNCLEAR
+design_File list
+task_Logic Analysis
+----------executing task: 0----------
+def unit_of_work(metadata=None, timeout=None):
+	"""
+	Returns a decorator with metadata and timeout attributes.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 1----------
+def round_half_to_even(n):
+	"""
+	Round a floating-point number
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 2----------
+def _inline_r_setup(code: str) -> str:
+	"""
+	Some behaviour of R cannot be configured via env variables, but can
+only be configured via R options once R has started. These are set here.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 3----------
+def cached(cache, key=hashkey, lock=None):
+	"""
+	Returns a decorator function that saves the results in the cache
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 4----------
+def setdefault(self, key, default=None):
+	"""
+	If a key exists in the class, the value corresponding to the key is returned. Otherwise, the value corresponding to the key is set to default.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 5----------
+def get(self, key, default=None):
+	"""
+	If a key exists in the class, the value corresponding to the key is returned. Otherwise, default is returned.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 6----------
+def _getTargetClass(self):
+	"""
+	Define this to return the implementation in use,
+without the 'Py' or 'Fallback' suffix.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 7----------
+def _legacy_mergeOrderings(orderings):
+	"""
+	Combine multiple lists in the sequence of occurrence into a list with no duplicate elements.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 8----------
+def minimalBases(classes):
+	"""
+	Returns all classes without subclasses as a list.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 9----------
+def _c_optimizations_ignored():
+	"""
+	Return True if get "PURE_PYTHON" environ is not none and not 0, else return False
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 10----------
+def _c_optimizations_required():
+	"""
+	Return a true value if the C optimizations are required.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 11----------
+def is_fill_request_el(obj):
+	"""
+	Check whether the obj class has the fill and request attributes.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 12----------
+def is_run_el(obj):
+	"""
+	Check whether the obj class has the run method.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 13----------
+def is_fill_compute_el(obj):
+	"""
+	Check whether the obj class has the fill and compute methods.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 14----------
+def is_valid(self, identifier):
+	"""
+	Return True if identifier is valid. In this base implementation, always return True.  (D)
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 15----------
+def get_logical_path_map(inventory, version):
+	"""
+	Returns the file paths of the states in the inventory in the dict type.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 16----------
+def files_list(path):
+	"""
+	Return the files in given path.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 17----------
+def match_file_by_prefix(prefix, file_path):
+	"""
+	Given a filepath, return true if the basename of the filepath is startswith the given prefix plus "-" or the given prefix plus "."
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 18----------
+def files_list_from_zipfile(zip_path):
+	"""
+	Return the files in the given zip path.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+no code_file_path
+/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_CoderEval_original_result_prune_8/CoderEval_18/CoderEval_18
+False
+----------executing task: 19----------
+def fix_namespace_prefix_w(content):
+	"""
+	Replace "w:st=" in content with "w-st=".
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 20----------
+def match_pubdate(node, pubdate_xpaths):
+	"""
+	For the given node, returns the first match in the pubdate_xpaths list.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 21----------
+def base_config(user, etcd_host="localhost", etcd_port=2379):
+	"""
+	Creates a configuration with some simple parameters, the key parameters contains "tls", "authentication", "authorization", "etcd", "docs", and "log".
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 22----------
+def _fromutc(self, dt):
+	"""
+	Given a timezone datetime in a given timezone, calculates a timezone datetime in a new timezone.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 23----------
+def plus_or_dot(pieces):
+	"""
+	Return "." If the closet-tag of the pieces contains "+", otherwise, return "+".
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 24----------
+def register_vcs_handler(vcs, method):
+	"""
+	Create decorator to mark a method as the handler of a object
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 25----------
+def parser_flags(parser):
+	"""
+	Given an argparse.ArgumentParser instance, return its argument flags in a space-separated
+string.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 26----------
+def parser_flags(parser):
+	"""
+	Given an argparse.ArgumentParser instance, return its argument flags in a space-separated
+string.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 27----------
+def paging(response, max_results):
+	"""
+	Return every response with the length of max_results
+    Args:
+    response (list): WAPI response.
+    max_results (int): Maximum number of objects to be returned in one page.
+    Returns:
+        Generator object with WAPI response split page by page.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 28----------
+def size_to_bytes(size: str) -> int:
+	"""
+	Convert human readable file size to bytes
+
+    Args:
+            size: str, a string representing a human readable file size (eg: '500K')
+    Returns:
+            int: file size in bytes
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 29----------
+def _dictsum(dicts):
+	"""
+	Sum values with the same key in the dictionaries. And return a new dictionary.
+    Example:
+        given two dictionaries: dict1: {'a': 1, 'b': 2}, dict2: {'a': 5, 'b': 0}
+        return a dictionary: dic:{'a': 6, 'b': 2}
+    Returns: dict
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 30----------
+def _replace_url_args(url, url_args):
+	"""
+	Replace the value in url with the value in url_args
+    If url_args has a value, iterate over the keys and values from url_args.
+    Then replace the keys of the first parameter with values.
+    Returns: the modified url.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 31----------
+def is_none_string(val: any) -> bool:
+	"""
+	Check if a string represents a None value.
+    Returns:
+        Return True if the type of val is string and the lowercase of val is equal to 'none', otherwise return False
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 32----------
+def strip_root(path, root):
+	"""
+	Remove root from path. If fails, throw exception
+
+    Returns:
+        A path without root
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 33----------
+def parser_flags(parser):
+	"""
+	Given an argparse.ArgumentParser instance, return its argument flags in a space-separated string.
+    Args:
+        script: argparse.ArgumentParser instance
+
+    Returns:
+        argument flags in a space-separated string
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 34----------
+def was_processed(processed, path_name, verbose):
+	"""
+	Check if a file or directory has already been processed.
+
+    To prevent recursion, expand the path name to an absolution path
+    call this function with a set that will store all the entries and
+    the entry to test. If the entry is already in the set, report the issue
+    and return ``True``. Otherwise, add the entry to the set and return
+    ``False`` to allow the path to be processed.
+
+    Args:
+        processed: Set to store processed pathnames
+        path_name: Path to a directory or file
+        verbose: True if verbose output is requested
+
+    Returns:
+        True if it's already in the set. False if not.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 35----------
+def vertex3tuple(vertices):
+	"""
+	Get 3 points for each vertex of the polygon.
+    This will include the vertex and the 2 points on both sides of the vertex
+    If the subscript is out of bounds, take the value of index as 0
+    Args:
+        vertices: vertices to be converted
+
+    Returns:
+        A list where the elements of vertices represented by tuple
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 36----------
+def int_to_string(number: int, alphabet: List[str], padding: Optional[int] = None) -> str:
+	"""
+	Convert a number to a string, using the given alphabet.
+    The number represents a short uuid.
+    The output has the most significant digit first.
+    @param number: Int value
+    @param alphabet : List with letters
+    @param padding : Optional with int value
+    @return  string value corresponded to int
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 37----------
+def _replace_register(flow_params, register_number, register_value):
+	"""
+	Replace the value of flow_params[register_number] with flow_params[register_value] and delete flow_params[register_value]
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 38----------
+def replace_dots(value, arg):
+	"""
+	Replaces all values of '.' to arg from the given string
+    Args:
+        value: old string
+        arg: new string to replace '.'
+    Returns:
+        str, the replaced string
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 39----------
+def subclasses(cls):
+	"""
+	Return all subclasses of a class, recursively
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 40----------
+def string_to_int(string: str, alphabet: List[str]) -> int:
+	"""
+	Convert a string to a number, using the given alphabet.
+    :param string: a string consist of the letters in alphabet
+    :param alphabet: list of letters
+    :return: int, the corresponding number of the given string using the given transition rule.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 41----------
+def get_repo_archive(url: str, destination_path: Path) -> Path:
+	"""
+	Given an url and a destination path, retrieve and extract .tar.gz archive which contains 'desc' file for each package
+
+        Args:
+            url: url of the .tar.gz archive to download
+            destination_path: the path on disk where to extract archive
+        Returns:
+                path where the archive is extracted to
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 42----------
+def os_is_mac():
+	"""
+	Checks if the os is macOS
+
+    :return: bool, True is macOS, otherwise False.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 43----------
+def regex_dict(item):
+	"""
+	Convert *.cpp keys to regex keys.
+Given a dict where the keys are all filenames with wildcards,
+convert only the keys into equivalent regexes and leave the values intact.
+
+Args:
+    item: dict to convert
+Returns:
+    dict with keys converted to regexes
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 44----------
+def unquote(name):
+	"""
+	Remove quote from the given name with regular expression.
+    Args:
+        name: input name
+    Returns:
+        name after removal
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 45----------
+def split(s, platform='this'):
+	"""
+	Split the input str under given platform, return the splitting result
+    If platform equals 'this', auto-detect current platform.
+    If platform equals 1, use POSIX style.
+    If platform equals 0, use Windows/CMD style.
+    Args:
+        s: input str
+        platform: 'this' = auto from current platform; 1 = POSIX; 0 = Windows/CMD
+    Returns:
+        a list of splitting str
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 46----------
+def prepare_repository_from_archive(
+    archive_path: str,
+    filename: Optional[str] = None,
+    tmp_path: Union[PosixPath, str] = "/tmp",
+) -> str:
+	"""
+	Given an existing archive_path, uncompress it.
+    Returns a file repo url which can be used as origin url.
+
+    This does not deal with the case where the archive passed along does not exist.
+    @param archive_path : archive file path
+    @param filename: File name
+    @param tmp_path: Temporary file path
+    @return Repo URL
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 47----------
+def addignored(ignored):
+	"""
+	Use the git command to obtain the file names。
+    Turn the file names into a list, sort the list for only ignored files
+    return those files as a single string with each filename separated by a comma.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 48----------
+def match(filename):
+	"""
+	Check if the type of the given filename is 'doxyfile'
+
+    Args:
+        filename: filename to be check
+    Returns:
+        Return True if the type of the given filename in lower case is 'doxyfile'
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 49----------
+def parse_frequency(frequency):
+	"""
+	Given a frequency string with a number and a unit of time, return a corresponding
+     datetime.timedelta instance.
+     If the frequency is None or "always", return None.
+     Raise ValueError if the given frequency cannot be parsed.
+     For instance, given "3 timeunit", return datetime.timedelta(timeunit=3)
+
+     @param frequency :  A frequency string "number timeunit"
+
+    @return str, the corresponding datetime
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 50----------
+def is_local(host):
+	"""
+	Checks if the host is the localhost,
+    the localhost include local IP, user name, local domain name, `localhost` and `127.0.0.1`
+
+    Args:
+        host: The hostname or ip
+
+    Returns:
+        True if the host is the localhost else False
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 51----------
+def make_find_paths(find_paths):
+	"""
+	Given a sequence of path, transform all path into glob patterns. Pass through existing patterns untouched.
+
+    Args:
+        find_paths: sequence of path
+    Returns:
+        tuple of transformed path
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 52----------
+def is_gitbash():
+	"""
+	Check whether the current program is run in a Windows gitbash terminal
+
+    Returns:
+            boolean, True if gitbash else False
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 53----------
+def write_configuration(config_filename, rendered_config, mode=0o600, overwrite=False):
+	"""
+	Given a rendered config YAML, write it out to target file.
+    But if the file already exists and overwrite is False,
+    abort before writing anything.
+    If the file does not exist, create it.
+    Write to the file otherwise.
+
+    Returns: None
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+evaluating ...
+no code_file_path
+/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_CoderEval_original_result_prune_8/CoderEval_53/CoderEval_53
+False
+----------executing task: 54----------
+def oneline(script, seperator=" && "):
+	"""
+	Convert a script to one line command with the given seperator.
+
+        Args:
+                script: str
+                separator: str
+        Returns:
+                str, the one-line command.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 55----------
+def subprocess_run_helper(func, *args, timeout, extra_env=None):
+	"""
+	Run a function in a sub-process
+
+    Args:
+            func: function, the function to be run. It must be in a module that is importable.
+            *args: str. Any additional command line arguments to be passed in
+                        the first argument to ``subprocess.run``.
+            extra_env: dict[str, str]. Any additional environment variables to be set for the subprocess.
+    Returns:
+            CompletedProcess instance
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 56----------
+def _resolve_string(matcher):
+	"""
+	Get the value from environment given a matcher containing a name and an optional default value in its group dict.
+    If the variable is not defined in environment and no default value is provided, an Error is raised.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 57----------
+def _parse_image_ref(image_href: str) -> Tuple[str, str, bool]:
+	"""
+	Parse an image href into composite parts import urllib.
+
+    :param image_href: href of an image
+    :returns: a tuple of the form (image_id, netloc, use_ssl)
+    :raises ValueError:
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 58----------
+def remove_ending_os_sep(input_list):
+	"""
+	If input list is None, return []
+    Iterate over a string list and remove trailing os seperator characters.
+    Each string is tested if its length is greater than one and if the last
+    character is the pathname seperator.
+    Returns:
+    A list after removing trailing os seperator characters.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 59----------
+def get_pattern(pattern, strip=True):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+            pattern: str or regex pattern object
+            strip: boolean, whether the spaces in the start/end will be stripped
+    Returns:
+            regex pattern object
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+----------executing task: 60----------
+def run_command(commands, args, cwd=None, verbose=False, hide_stderr=False, env=None):
+	"""
+	A list of command is given. Run the given command(s) with the given arguments use a subprocess. Return the running result (stdout and returncode)
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 61----------
+def from_raw_values(cls, values):
+	"""
+	Create a Bookmarks object from a list of raw bookmark string values.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+----------executing task: 62----------
+def default_tzinfo(dt, tzinfo):
+	"""
+	Sets the ``tzinfo`` parameter on naive datetimes only
+
+This is useful for example when you are provided a datetime that may have
+either an implicit or explicit time zone, such as when parsing a time zone
+string.
+
+.. doctest::
+
+    >>> from dateutil.tz import tzoffset
+    >>> from dateutil.parser import parse
+    >>> from dateutil.utils import default_tzinfo
+    >>> dflt_tz = tzoffset("EST", -18000)
+    >>> print(default_tzinfo(parse('2014-01-01 12:30 UTC'), dflt_tz))
+    2014-01-01 12:30:00+00:00
+    >>> print(default_tzinfo(parse('2014-01-01 12:30'), dflt_tz))
+    2014-01-01 12:30:00-05:00
+
+:param dt:
+    The datetime on which to replace the time zone
+
+:param tzinfo:
+    The :py:class:`datetime.tzinfo` subclass instance to assign to
+    ``dt`` if (and only if) it is naive.
+
+:return:
+    Returns an aware :py:class:`datetime.datetime`.
+	"""
+	
+----------------------------------------------------------------------------------------------------
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+evluating...
+evaluating ...
+True
+current round: 0
+current pass@10: 1.0
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+current round: 10
+current pass@10: 0.6363636363636364
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+no code_file_path
+no answer for question 18
+False
+evaluating ...
+False
+evaluating ...
+False
+current round: 20
+current pass@10: 0.3333333333333333
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+current round: 30
+current pass@10: 0.3225806451612903
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+current round: 40
+current pass@10: 0.3902439024390244
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+False
+evaluating ...
+True
+no answer for question 49
+False
+evaluating ...
+True
+current round: 50
+current pass@10: 0.37254901960784315
+evaluating ...
+False
+evaluating ...
+True
+no code_file_path
+no answer for question 53
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+True
+evaluating ...
+False
+current round: 60
+current pass@10: 0.4098360655737705
+evaluating ...
+False
+evaluating ...
+True
+final pass@10: 0.4126984126984127
+total pass number: 26

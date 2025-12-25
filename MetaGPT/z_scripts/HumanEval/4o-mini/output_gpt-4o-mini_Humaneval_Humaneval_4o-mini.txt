@@ -1,0 +1,15 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_gpt-4o-mini/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_gpt-4o-mini/', input_path='/home/zlyuaj/Causal/MetaGPT/data/HumanEval_test_case_ET.jsonl', dataset='humaneval', output_file_name='humaneval_gpt-4o-mini', workspace='workspace_gpt-4o-mini_humaneval_4o-mini_original_result', num_generate=1, parallel=1, model='gpt-4o-mini', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, recover=0, add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+164
+----------executing task: 0----------
+in generating repo
+
+
+
+
+
+Can't pickle local object 'parse_gitignore.<locals>.<lambda>'
+----------executing task: 1----------

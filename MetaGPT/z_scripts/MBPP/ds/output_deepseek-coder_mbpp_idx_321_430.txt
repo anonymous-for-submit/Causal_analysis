@@ -1,0 +1,279 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_intervent_321_430/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_intervent_321_430/', input_path='/home/zlyuaj/Causal/MetaGPT/data/mbpp_sanitized_ET.jsonl', dataset='mbpp', output_file_name='mbpp_deepseek-coder_intervent_321_430', workspace='workspace_deepseek-coder_mbpp_len1', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=321, end_idx=430, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_mbpp_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/mbpp/results-mbpp_deepseek-coder_original_dataset/mbpp.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+----------executing task: 321----------
+Write a function to caluclate the area of a tetrahedron.
+
+Examples:
+- area_tetrahedron(3) == 15.588457268119894
+- area_tetrahedron(20) == 692.8203230275509
+----------------------------------------------------------------------------------------------------
+generating cause, len(cause) = 1
+intervening features: prd_Language
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Programming Language
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Original Requirements
+in generating repo
+
+
+
+
+
+evaluating ...
+False
+intervening features: prd_Product Goals
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_User Stories
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+no code_file_path
+/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_mbpp_len1/mbpp_321_no_prd_User Stories/mbpp_321_no_prd_User Stories
+False
+intervening features: prd_Competitive Analysis
+in generating repo
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Competitive Quadrant Chart
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Requirement Analysis
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Requirement Pool
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_UI Design draft
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: prd_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: design_Implementation approach
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+False
+intervening features: design_File list
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: design_Data structures and interfaces
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+False
+intervening features: design_Program call flow
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Required packages
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Required Other language third-party packages
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Logic Analysis
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_File list
+in generating repo
+
+
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Full API spec
+in generating repo
+
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Shared Knowledge
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+intervening features: task_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
+True
+found len=1 cause: [[<__main__.FeatureNode object at 0x7fe30d6d3b80>], [<__main__.FeatureNode object at 0x7fe30d50fc10>], [<__main__.FeatureNode object at 0x7fe30da6a4a0>], [<__main__.FeatureNode object at 0x7fe30d50f940>]]
+building group graph for feature nodes ...

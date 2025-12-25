@@ -1,0 +1,205 @@
+True
+True
+/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_new_modified_intervent_76_100/
+Namespace(output_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_new_modified_intervent_76_100/', input_path='/home/zlyuaj/Causal/MetaGPT/data/HumanEval_test_case_ET.jsonl', dataset='humaneval', output_file_name='humaneval_deepseek-coder_new_modified_intervent_76_100', workspace='workspace_deepseek-coder_humaneval_new_modified_len1', num_generate=1, parallel=0, model='deepseek-coder', run_generate=1, run_evaluate=1, MBPP_test_case_num=1, eval_start_index=-1, begin_idx=76, end_idx=100, original_result_workspace='/home/zlyuaj/Causal/MetaGPT/workspace_deepseek-coder_humaneval_original_result', sim_threshold=0.5, build_feature_graph=1, max_run=100, generate_len1=1, generate_len2=1, early_stop=1, early_stop_threshold=10, max_len_cause=5, prune_feature=0, empty_intervention=0, modified_intervention=1, modified_intervention_from_input=0, do_intervent=1, run_certain_level='', original_result_path='/home/zlyuaj/Causal/MetaGPT/output/humaneval/results-humaneval_deepseek-coder_original_dataset/humaneval.jsonl', add_monitor=0, repair_plan=0, repair_code=0, run_multi_gen=0, repair_prompt_num=0)
+<class 'argparse.Namespace'>
+skip task_id: 76, original result is fail
+skip task_id: 77, original result is fail
+skip task_id: 78, original result is fail
+Modified contents at idx= 79
+{'Implementation approach': "To implement the binary string generation, we will use a recursive algorithm to convert the decimal number to binary. This approach may be less efficient for larger numbers but showcases a different method. The function will append 'db' at the start and remove the leading zeros before returning.", 'File list': ['binary_conversion.py', 'utils.py'], 'Data structures and interfaces': 'def convert_decimal_to_binary(number: int, append_db: bool = True) -> str:', 'Program call flow': "sequenceDiagram\n    participant U as User\n    participant P as Program\n    U->>P: Provide a decimal integer for conversion\n    P->>P: Recursively convert to binary\n    P->>P: Check if an additional 'db' needs to be appended\n    P->>U: Respond with a binary string without formatting", 'Anything UNCLEAR': 'The requirement is unclear about handling negative numbers and whether the output should retain leading zeros or not.'}
+----------executing task: 79----------
+
+def decimal_to_binary(decimal):
+    """You will be given a number in decimal form and your task is to convert it to
+    binary format. The function should return a string, with each character representing a binary
+    number. Each character in the string will be '0' or '1'.
+
+    There will be an extra couple of characters 'db' at the beginning and at the end of the string.
+    The extra characters are there to help with the format.
+
+    Examples:
+    decimal_to_binary(15)   # returns "db1111db"
+    decimal_to_binary(32)   # returns "db100000db"
+    """
+
+----------------------------------------------------------------------------------------------------
+generating cause, len(cause) = 1
+intervening features: prd_Language
+evaluating ...
+True
+intervening features: prd_Programming Language
+evaluating ...
+True
+intervening features: prd_Original Requirements
+evaluating ...
+True
+intervening features: prd_Product Goals
+evaluating ...
+True
+intervening features: prd_User Stories
+evaluating ...
+True
+intervening features: prd_Competitive Analysis
+evaluating ...
+True
+intervening features: prd_Competitive Quadrant Chart
+evaluating ...
+True
+intervening features: prd_Requirement Analysis
+evaluating ...
+False
+intervening features: prd_Requirement Pool
+evaluating ...
+True
+intervening features: prd_UI Design draft
+evaluating ...
+True
+intervening features: prd_Anything UNCLEAR
+evaluating ...
+True
+intervening features: design_Implementation approach
+evaluating ...
+True
+intervening features: design_File list
+evaluating ...
+True
+intervening features: design_Data structures and interfaces
+evaluating ...
+False
+intervening features: design_Program call flow
+evaluating ...
+True
+intervening features: design_Anything UNCLEAR
+evaluating ...
+True
+intervening features: task_Required packages
+evaluating ...
+True
+intervening features: task_Required Other language third-party packages
+evaluating ...
+True
+intervening features: task_Logic Analysis
+evaluating ...
+True
+intervening features: task_File list
+evaluating ...
+True
+intervening features: task_Full API spec
+evaluating ...
+True
+intervening features: task_Shared Knowledge
+evaluating ...
+True
+intervening features: task_Anything UNCLEAR
+evaluating ...
+True
+found len=1 cause: [[<__main__.FeatureNode object at 0x7f2fd0b11d80>], [<__main__.FeatureNode object at 0x7f2fd0b8ad70>]]
+building group graph for feature nodes ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+building group graph done.
+generating cause, len(cause) = 2
+210
+intervening features: prd_Language,prd_Programming Language
+in generating repo
+
+
+
+
+
+in generating repo
+
+
+
+
+
+in generating repo
+
+
+
+
+
+
+
+evaluating ...
+True
+cutting...
+current invalid pairs {'prd_Programming Language,prd_Language', 'prd_Language,prd_Programming Language', 'task_Anything UNCLEAR,prd_Language'}
+current concecutive fails: 1
+intervening features: prd_Language,design_Anything UNCLEAR
+in generating repo
+
+
+
+
+
+evaluating ...
